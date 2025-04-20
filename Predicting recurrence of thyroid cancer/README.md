@@ -4,17 +4,16 @@ This project predicts the recurrence of thyroid cancer based on clinical feature
 #Dataset
 Source: https://www.kaggle.com/datasets/aneevinay/thyroid-cancer-recurrence-dataset
 The dataset consists of clinical records from 383 patients with thyroid cancer.
-Features included: age, gender, treatment history, tumor characteristics, and metastasis information
+Features included: age, gender, treatment history, tumor characteristics, and metastasis information.
 Target variable: "Recurred"
 
 #Approach
 Data Preprocessing: categorical features were label-encoded, minor typos in feature names were corrected.
 Data Splitting: the data was stratified into Train (60%), Development/Validation (20%), and Test (20%) sets.
 Model Building: XGBoost Classifier was used, initial hyperparameters were found through grid search.
-Hyperparameter Tuning: manual tuning of max_depth, min_child_weight, and learning_rate based on 
+Hyperparameter Tuning: manual tuning of max_depth, min_child_weight, and learning_rate based on
 training and validation (development set) accuracies; visualized how model complexity affected performance.
-Model Evaluation: Accuracy, precision, recall, and F1 score were calculated. Evaluation was performed separately 
-on the development and test sets.
+Model Evaluation: Accuracy, precision, recall, and F1 score were calculated. Evaluation was performed separately on the development and test sets.
 
 #Final model performance
 Development Set Accuracy: ~96%
