@@ -1,6 +1,7 @@
 # my_MLProjects
 As a bioinformatician who has dealt with large-scale datasets, primarily next-generation sequencing (NGS) genomic data, 
-I was super eager to expand my toolkit to make the most out of big data. After having finished my PhD, while exploring directions to grow my skills in, I decided to dive into the world of machine learning. 
+I was super eager to expand my toolkit to make the most out of big data. After having finished my PhD, while exploring directions to grow my skills in,
+I decided to dive into the world of machine learning. 
 
 At the time this repository was created, I had just finished taking two courses on machine learning where I learned how to: 
 1. Train regression and classification algorithms (NumPy, scikit-learn)
