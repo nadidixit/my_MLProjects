@@ -1,8 +1,8 @@
-#overview
+# Overview
 
 This project predicts the recurrence of thyroid cancer based on clinical features, using an XGBoost classifier.
 
-#Dataset
+# Dataset
 
 Source: https://www.kaggle.com/datasets/aneevinay/thyroid-cancer-recurrence-dataset
 
@@ -12,7 +12,7 @@ Features included: age, gender, treatment history, tumor characteristics, and me
 
 Target variable: "Recurred"
 
-#Approach
+# Approach
 
 Data Preprocessing: categorical features were label-encoded, minor typos in feature names were corrected.
 
@@ -25,7 +25,7 @@ training and validation (development set) accuracies; visualized how model compl
 
 Model Evaluation: Accuracy, precision, recall, and F1 score were calculated. Evaluation was performed separately on the development and test sets.
 
-#Final model performance
+# Final model performance
 
 Development Set Accuracy: ~96%
 
@@ -33,21 +33,11 @@ Test Set Accuracy: ~96%
 
 Other Metrics: High precision and recall indicating balanced performance
 
-#Requirements
+# Requirements
 
-Python 3.x
+Python 3.x, pandas, numpy, scikit-learn, xgboost, matplotlib
 
-pandas
-
-numpy
-
-scikit-learn
-
-xgboost
-
-matplotlib
-
-#Usage
+# Usage
 
 Run the main notebook or script to:
 
@@ -61,7 +51,7 @@ Visualize hyperparameter effects
 
 Load the final trained model
 
-#Highlights
+# Highlights
 
 Emphasis on model generalization (avoiding overfitting)
 
@@ -71,7 +61,7 @@ Full separation of Train/Dev/Test datasets
 
 Clean and reproducible code
 
-#Future work
+# Future work
 
 Test alternative models (Random Forest, LightGBM) for comparison
 
