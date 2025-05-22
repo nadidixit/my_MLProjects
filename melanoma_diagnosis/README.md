@@ -37,7 +37,7 @@ Each set contains both benign and malignant cases, balanced approximately equall
 
 
 ## Requirements  
-Python 3.x, TensorFlow, Keras, numpy, matplotlib
+Python 3.x, TensorFlow, Keras, scikit-learn, numpy, matplotlib
 
 ## Usage  
 Run the notebook or Python script to:  
