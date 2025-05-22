@@ -4,7 +4,8 @@
 This project classifies skin lesion images as benign or malignant (melanoma) using a custom-built Convolutional Neural Network (CNN).
 
 ## Dataset  
-The dataset used for this project can be found at [Melanoma Cancer Image Dataset](https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset/) on Kaggle
+The dataset used for this project can be found at [Melanoma Cancer Image Dataset](https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset/) on Kaggle.
+
 The dataset already included train and test sets. I extracted 20% of the train dataset as dev (or val) dataset.
 Each set contains both benign and malignant cases, balanced approximately equally.
 
