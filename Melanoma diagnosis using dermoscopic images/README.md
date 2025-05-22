@@ -1,4 +1,4 @@
-# Melanoma Classification with CNN
+# Melanoma Diagnosis with CNN
 
 ## Overview  
 This project classifies skin lesion images as benign or malignant (melanoma) using a custom-built Convolutional Neural Network (CNN).
