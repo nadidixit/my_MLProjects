@@ -45,7 +45,7 @@ Run the notebook or Python script to:
 - Train CNN models and tune hyperparameters  
 - Save best-performing models using custom callbacks  
 - Evaluate and visualize test set performance, including confusion matrix  
-- Load and use the saved model (`model_second.keras`)
+- Load and use the saved model ([melanoma_model](https://www.kaggle.com/datasets/nadidixit/melanoma-model))
 
 ## Highlights  
 - Built CNN models from scratch, without pretrained backbones  
